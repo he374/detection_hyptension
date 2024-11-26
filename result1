@@ -1,0 +1,35 @@
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[ True  True  True  True False False  True  True  True False False  True
+ False False False False False]
+78    False
+0      True
+68    False
+22    False
+12     True
+82    False
+10     True
+18    False
+4     False
+66    False
+40     True
+47    False
+35     True
+72     True
+55    False
+54    False
+33     True
+Name: labelm, dtype: bool
+              precision    recall  f1-score   support
+
+       False       0.44      0.40      0.42        10
+        True       0.25      0.29      0.27         7
+
+    accuracy                           0.35        17
+   macro avg       0.35      0.34      0.34        17
+weighted avg       0.36      0.35      0.36        17
+
+0.35294117647058826
