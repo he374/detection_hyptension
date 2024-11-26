@@ -317,10 +317,4 @@ def save_all(parameter):
 
 
 
-rm = data_bis_extracted('1')
-lm = data_map_extracted('1')
 
-sm = show_save_plt('1', map, 65)
-
-print(rm)
-print(lm)
