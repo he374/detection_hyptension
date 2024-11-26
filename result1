@@ -1,3 +1,8 @@
+#le résultat de première tentative d'entrainer la machine à partir des données générés à partir de extraction de features de la série temporel de map
+#l'algo utilisé pour la génération des features est PolynomialRegression et pour la classification on a utilisé l'algo LogisticRegression
+
+
+
 Increase the number of iterations (max_iter) or scale the data as shown in:
     https://scikit-learn.org/stable/modules/preprocessing.html
 Please also refer to the documentation for alternative solver options:
