@@ -1,5 +1,5 @@
 # apres avoir augmenter le nombre d'echantionnes des données à partir des patients quiont pas de l'hypotension et les patients qui ont une hypotension potentiel au cours de l'anestesie génerale 
-#on a obtenue une precision bien élevée 
+# on a obtenue une precision bien élevée 
 #
 
 C:\Users\Admin\Desktop\projet lamih 2\myenv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
