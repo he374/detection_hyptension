@@ -1,0 +1,78 @@
+# D'apres ce résultat, on remarque que le type des données est vraiment important, on doit se focaliser sur les patients qui de l'hypotension parce si on entraine la machimne par les données issues des patients normaux, 
+# on aurra un proccessus de entrainement qui n'est pas valable et d'une faible précision. Alors, pour la suite on va se baser sur un echantillon des patients qui ont de l'hypotension,
+# et on procede un suréchantillonage des données.
+
+C:\Users\Admin\Desktop\projet lamih 2\myenv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[False  True False  True  True  True  True  True False  True  True  True
+ False False  True  True False False  True False  True False  True  True
+  True False False False  True  True  True False  True  True False  True
+  True  True False False  True  True False  True  True False  True  True
+ False False]
+137    False
+6      False
+97     False
+60     False
+112    False
+180    False
+196    False
+183    False
+9       True
+104    False
+199    False
+215    False
+201    False
+239    False
+67     False
+223    False
+193    False
+15     False
+162    False
+24     False
+246    False
+19     False
+114    False
+68     False
+175    False
+45     False
+55     False
+10      True
+30      True
+120    False
+200    False
+33      True
+140    False
+159    False
+25     False
+111    False
+18     False
+195    False
+173    False
+158    False
+118    False
+96     False
+108    False
+184    False
+190    False
+16     False
+194    False
+69      True
+172    False
+38      True
+Name: labelm, dtype: bool
+              precision    recall  f1-score   support
+
+       False       0.80      0.36      0.50        44
+        True       0.07      0.33      0.11         6
+
+    accuracy                           0.36        50
+   macro avg       0.43      0.35      0.31        50
+weighted avg       0.71      0.36      0.45        50
+
+0.36
