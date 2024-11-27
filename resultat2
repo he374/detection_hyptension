@@ -2,9 +2,6 @@
 #on a obtenue une precision bien élevée 
 #
 
-
-(83, 13)
-(21, 13)
 C:\Users\Admin\Desktop\projet lamih 2\myenv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
 STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
 
