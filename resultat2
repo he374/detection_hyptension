@@ -1,0 +1,49 @@
+# apres avoir augmenter le nombre d'echantionnes des données à partir des patients quiont pas de l'hypotension et les patients qui ont une hypotension potentiel au cours de l'anestesie génerale 
+#on a obtenue une precision bien élevée 
+#
+
+
+(83, 13)
+(21, 13)
+C:\Users\Admin\Desktop\projet lamih 2\myenv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[ True False False False False  True  True  True  True  True  True  True
+  True  True  True  True False  True  True  True False]
+30     True
+65    False
+64    False
+53    False
+45    False
+93    False
+91    False
+47    False
+10     True
+0      True
+18    False
+31     True
+88    False
+95    False
+77    False
+4     False
+80    False
+33     True
+12     True
+26    False
+98    False
+Name: labelm, dtype: bool
+              precision    recall  f1-score   support
+
+       False       1.00      0.40      0.57        15
+        True       0.40      1.00      0.57         6
+
+    accuracy                           0.57        21
+   macro avg       0.70      0.70      0.57        21
+weighted avg       0.83      0.57      0.57        21
+
+0.5714285714285714
