@@ -1,4 +1,4 @@
-#le résultat de première tentative d'entrainer la machine à partir des données générés à partir de extraction de features de la série temporel de map
+#le résultat de première tentative d'entrainer la machine à partir des données générés à partir de extraction de features de les séries temporels de map et de bis
 #l'algo utilisé pour la génération des features est PolynomialRegression et pour la classification on a utilisé l'algo LogisticRegression
 
 
