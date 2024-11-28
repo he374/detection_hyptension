@@ -141,3 +141,48 @@ Name: labelm, dtype: bool
 weighted avg       0.63      0.64      0.63        22
 
 0.6363636363636364
+
+# Par une duplication simple (cette fois on applique la méthode sur les données d'entrainement et non tous le dataset ############
+
+PS C:\Users\Admin\Desktop\projet lamih 2> & "c:/Users/Admin/Desktop/projet lamih 2/myenv/Scripts/python.exe" "c:/Users/Admin/Desktop/projet lamih 2/classification.py"
+(108, 13)
+(68, 13)
+C:\Users\Admin\Desktop\projet lamih 2\myenv\Lib\site-packages\sklearn\linear_model\_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[False  True  True  True False  True  True False  True  True  True  True
+ False False False False  True False  True False  True False  True False
+ False  True False False  True  True  True False False  True  True False
+ False  True False False False  True  True False False  True False False
+ False  True False False False False  True  True  True  True False  True
+ False False  True False False False False False]
+54    False
+72     True
+11     True
+30     True
+40     True
+      ...
+20    False
+60    False
+71     True
+14     True
+51    False
+Name: labelm, Length: 68, dtype: bool
+              precision    recall  f1-score   support
+
+       False       0.84      0.74      0.79        43
+        True       0.63      0.76      0.69        25
+
+    accuracy                           0.75        68
+   macro avg       0.74      0.75      0.74        68
+weighted avg       0.77      0.75      0.75        68
+
+0.75
+
+
+# Bingo la réussite, on a réussie à augmanter la precision totale de 57% à 75%, d'où le résultat.
