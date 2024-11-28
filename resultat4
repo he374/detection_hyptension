@@ -1,3 +1,7 @@
+# échantillon des données pris pour 3 patient qui ont de l'hypotension,
+# augmentation significatif de la precision
+#
+
 TypeError: create_df_specifique() takes 14 positional arguments but 15 were given
 PS C:\Users\Admin\Desktop\projet lamih 2> & "c:/Users/Admin/Desktop/projet lamih 2/myenv/Scripts/python.exe" "c:/Users/Admin/Desktop/projet lamih 2/classification.py"
 (68, 13)
