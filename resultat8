@@ -1,0 +1,176 @@
+######################   Avec porcentage  ######################################################"
+Col10       Col11
+count  419.000000  419.000000
+mean     0.304327    0.238399
+std      0.355362    0.220573
+min      0.000000    0.000000
+25%      0.000000    0.023985
+50%      0.114391    0.202952
+75%      0.599631    0.381919
+max      1.000000    0.981550
+[0 1]
+int64
+labeltarget
+0    224
+1    224
+Name: count, dtype: int64
+(448, 67)
+(84, 67)
+    TAP1   TAP2   TAP3   TAP4   TAP5   BT1    BT2    BT3    BT4    BT5  ...  PD BT  PH TAP  PD TAP    PH MAP    PD MAP  Col12  Col13  Col14  labelpre  labeltarget
+24  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  0.000000  0.693727   True   True  False     False        False
+31   0.0    0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0    0.0  ...    0.0     0.0     0.0  0.000000  0.826568   True   True  False     False        False
+8   62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  0.000000  0.453875   True   True  False     False        False
+59  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  0.000000  0.431734   True   True  False     False        False
+4   62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  0.328413  0.520295   True   True  False      True        False
+..   ...    ...    ...    ...    ...   ...    ...    ...    ...    ...  ...    ...     ...     ...       ...       ...    ...    ...    ...       ...
+ ...
+6   62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  0.863469  0.132841   True   True  False      True
+True
+52  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  0.313653  0.295203   True   True  False      True
+True
+22  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  1.000000  0.000000   True   True  False      True
+True
+13  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  0.848708  0.081181   True   True  False      True
+True
+33  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  600.0  ...    0.0     1.0     0.0  0.154982  0.199262   True   True  False      True
+True
+
+[448 rows x 68 columns]
+C:\Users\Admin\Desktop\pkk2\myenv\Lib\site-packages\sklearn\linear_model\_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+[0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0
+ 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 1 0 0 1 0 0
+ 1 0 0 0 1 0 1 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0
+ 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0
+ 0 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 0
+ 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1
+ 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 1 1 1 0 1 1 1 1 1 1 1
+ 1 1 1 1 1 1 1 1 0 0 1 0 1 1 1 1 1 0 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 1 0 1 0
+ 1 1 1 1]
+[0 0 1 0 0 1 0 0 1 1 1 1 0 1 0 1 0 1 1 0 1 0 1 1 0 1 0 0 0 1 0 1 1 0 1 1 1
+ 0 1 0 0 1 1 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 1 0 0 0
+ 0 0 1 0 0 1 0 0 1 1]
+              precision    recall  f1-score   support
+
+           0       0.93      0.83      0.88       224
+           1       0.85      0.94      0.89       224
+
+    accuracy                           0.89       448
+   macro avg       0.89      0.89      0.89       448
+weighted avg       0.89      0.89      0.89       448
+
+0.8861607142857143
+              precision    recall  f1-score   support
+
+           0       0.92      0.77      0.84        57
+           1       0.64      0.85      0.73        27
+
+    accuracy                           0.80        84
+   macro avg       0.78      0.81      0.78        84
+weighted avg       0.83      0.80      0.80        84
+
+0.7976190476190477
+None
+[0 1]
+int64
+labeltarget
+0    199
+1    199
+Name: count, dtype: int64
+(398, 67)
+(63, 67)
+    TAP1   TAP2   TAP3   TAP4   TAP5   BT1    BT2    BT3    BT4  ...  PH TAP    PD TAP    PH MAP    PD MAP  Col12  Col13  Col14  labelpre  labeltarget
+24  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  ...     1.0  0.000000  0.774908  0.125461   True   True  False      True        False        
+16  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  ...     1.0  0.000000  0.295203  0.154982   True   True  False      True        False        
+52   0.0    0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0  ...     0.0  0.000000  0.055351  0.376384  False  False  False      True        False        
+48   5.0   54.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0  ...     0.0  0.118081  0.826568  0.000000  False  False  False      True        False        
+13  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  ...     1.0  0.000000  0.586716  0.265683   True   True  False      True        False        
+..   ...    ...    ...    ...    ...   ...    ...    ...    ...  ...     ...       ...       ...       ...    ...    ...    ...       ...          ...        
+15  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  ...     1.0  0.000000  0.073801  0.154982   True   True  False      True         True        
+58  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  ...     1.0  0.000000  0.376384  0.583026   True   True  False      True         True        
+46  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  ...     1.0  0.000000  1.000000  0.000000   True   True  False      True         True        
+3    0.0    0.0    0.0    0.0    0.0   0.0    0.0    0.0    0.0  ...     0.0  0.000000  0.616236  0.383764  False  False  False      True         True        
+38  62.0  240.0  360.0  480.0  600.0  62.0  240.0  360.0  480.0  ...     1.0  0.000000  0.376384  0.107011   True   True  False      True         True        
+
+[398 rows x 68 columns]
+
+Logistic Regression
+C:\Users\Admin\Desktop\pkk2\myenv\Lib\site-packages\sklearn\linear_model\_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Validation Accuracy: 0.81
+Test Accuracy: 0.86
+              precision    recall  f1-score   support
+
+           0       0.89      0.91      0.90        45
+           1       0.76      0.72      0.74        18
+
+    accuracy                           0.86        63
+   macro avg       0.83      0.82      0.82        63
+weighted avg       0.86      0.86      0.86        63
+
+
+Decision Tree
+Validation Accuracy: 0.86
+Test Accuracy: 0.76
+              precision    recall  f1-score   support
+
+           0       0.80      0.89      0.84        45
+           1       0.62      0.44      0.52        18
+
+    accuracy                           0.76        63
+   macro avg       0.71      0.67      0.68        63
+weighted avg       0.75      0.76      0.75        63
+
+
+Random Forest
+Validation Accuracy: 0.78
+Test Accuracy: 0.90
+              precision    recall  f1-score   support
+
+           0       0.95      0.91      0.93        45
+           1       0.80      0.89      0.84        18
+
+    accuracy                           0.90        63
+   macro avg       0.88      0.90      0.89        63
+weighted avg       0.91      0.90      0.91        63
+
+
+Support Vector Machine
+Validation Accuracy: 0.86
+Test Accuracy: 0.90
+              precision    recall  f1-score   support
+
+           0       1.00      0.87      0.93        45
+           1       0.75      1.00      0.86        18
+
+    accuracy                           0.90        63
+   macro avg       0.88      0.93      0.89        63
+weighted avg       0.93      0.90      0.91        63
+
+K-Nearest Neighbors
+Validation Accuracy: 0.87
+Test Accuracy: 0.90
+              precision    recall  f1-score   support
+
+           0       0.98      0.89      0.93        45
+           1       0.77      0.94      0.85        18
+
+    accuracy                           0.90        63
+   macro avg       0.87      0.92      0.89        63
+weighted avg       0.92      0.90      0.91        63
